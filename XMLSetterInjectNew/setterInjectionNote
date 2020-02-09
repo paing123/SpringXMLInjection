@@ -1,0 +1,29 @@
+wired="no"
+<property name="idOfItsDependency" ref="idOfItsDependency" />
+In its dependency,
+name must be same name of obj. 
+<property name="attributeName" value="attributeValue" />
+
+wired="byName"
+In its dependency,
+name must be same name of obj.
+<property name="attributeName" value="attributeValue" />
+
+wired="byType"
+In its dependency,
+name must be same name of obj.
+<property name="attributeName" value="attributeValue" />
+
+byName and byType difference
+byName can allow more than one bean of same type
+byType can't allow more than one bean of same type
+
+wired="constructor"
+In its dependency,
+name must be same name of parameter of constructor.
+<property name="attributeName" value="attributeValue" />
+byName can allow more than one bean of same type
+
+
+
+
